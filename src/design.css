@@ -33,7 +33,7 @@ select {
   font-size: 20px;
 }
 
-.city {
+.tabs {
     display: flex;
     margin: 10px 0;
     justify-content: space-between;

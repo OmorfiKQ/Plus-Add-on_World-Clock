@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.6.0/moment-timezone-with-data-1970-2030.min.js"></script>
     <link rel="stylesheet" href="src/design.css" />
     <title>Plus Add-on World Clock</title>
 </head>
@@ -17,19 +19,19 @@
             <option value="sydney">🌉Sydney🦘🇦🇺🐨</option>
         </select>
 
-        <div class="city">
+        <div class="tabs" id="city-one">
             <div>
-            <h2>🥐Germany🥖</h2>
-            <div class="date">October 1st, 2025</div>
+            <h2>🥐Moscow🥖</h2>
+            <div class="date"></div>
             </div>
-            <div class="time">2:30:15 <small> PM </small></div>
+            <div class="time"></div>
         </div>
-         <div class="city">
+         <div class="tabs" id="city-two">
             <div>
-            <h2>👘China🍜</h2>
-            <div class="date">October 1st, 2025</div>
+            <h2>👘Japan🍜</h2>
+            <div class="date"></div>
             </div>
-            <div class="time">2:30:15 <small> PM </small></div>
+            <div class="time"></div>
         </div>
 
     </div>
@@ -44,6 +46,6 @@
         </footer>
     </div>
 
-    <link rel="stylesheet" href="src/script.js" /> 
+    <script src="src/script.js"></script>
 </body>
 </html>
