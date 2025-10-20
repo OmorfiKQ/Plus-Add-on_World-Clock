@@ -1,0 +1,21 @@
+body {background: #9B5DE0;
+color: white;}
+
+
+a:link {
+  color: #3927e0;
+}
+a:visited {
+  color: #43e943;
+}
+a:hover {
+  background-color: #9B5DE0;
+  color: white;
+}
+
+footer {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
