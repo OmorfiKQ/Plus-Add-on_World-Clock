@@ -1,12 +1,67 @@
-body {background: #9B5DE0;
-color: white;}
+body {
+    background: #9B5DE0;
+    color: white;
+    font-family: 'Segoe UI';
+}
+
+
+
+.container {
+  max-width: 600px;
+  padding: 20px;
+  background:#804db9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  margin: 60px auto;
+}
 
 h1 {
   font-weight: 800;
-  font-size: 36px;
+  font-size: 40px;
   line-height: 1.5;
   color: #414257;
   text-align: center;
+  font-family: Tahoma;
+}
+
+select {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 20px;
+}
+
+.city {
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.city:last-child {
+    border-bottom: none;
+}
+
+h2 {
+    margin: 0 0 4px;
+    font-size: 30px;
+}
+
+.date {
+    opacity: 0.4;
+}
+
+.time{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.time small {
+    font-size: 30px;
+    vertical-align: middle;
 }
 
 
@@ -22,8 +77,8 @@ a:hover {
 }
 
 footer {
-  font-size: 14px;
-  color: white;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.4);
   text-align: center;
   margin-top: 40px;
 }
