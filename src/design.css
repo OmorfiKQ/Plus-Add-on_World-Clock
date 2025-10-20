@@ -1,6 +1,14 @@
 body {background: #9B5DE0;
 color: white;}
 
+h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #414257;
+  text-align: center;
+}
+
 
 a:link {
   color: #3927e0;
