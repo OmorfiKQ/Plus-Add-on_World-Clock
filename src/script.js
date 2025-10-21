@@ -32,7 +32,7 @@ function updateTime() {
    if (cityThreeElement) {
   let cityThreeDateElement = cityThreeElement.querySelector(".date");
   let cityThreeTimeElement = cityThreeElement.querySelector(".time");
-  let cityThreeTime = moment().tz("Japan");
+  let cityThreeTime = moment().tz("Europe/Rome");
 
   cityThreeDateElement.innerHTML = cityThreeTime.format("dddd, MMMM Do YYYY");
   cityThreeTimeElement.innerHTML = cityThreeTime.format(
