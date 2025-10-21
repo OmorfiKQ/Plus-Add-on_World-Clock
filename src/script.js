@@ -35,12 +35,14 @@ function updateCity(event) {
 
   citiesElement.innerHTML = ` <div class="cities">
         <div class="tabs">
-          <h2>${cityName}</h2>
-          <div class="date">${cityTime.format("dddd, MMMM Do YYYY")}</div>
-        </div>
-        <div class="time">${cityTime.format(
+            <div>
+            <h2>${cityName}</h2>
+            <div class="date">${cityTime.format("dddd, MMMM Do YYYY")}</div>
+            </div>
+            <div class="time">${cityTime.format(
           "h:mm:ss"
         )} <small>${cityTime.format("A")}</small></div>
+        </div>
       </div>`;
   } 
 
