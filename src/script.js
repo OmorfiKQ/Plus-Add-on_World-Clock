@@ -24,6 +24,20 @@ function updateTime() {
   cityTwoTimeElement.innerHTML = cityTwoTime.format(
     "h:mm:ss [<small>]A[</small>]"
   );}
+
+
+  // tab-2 elements
+
+  let cityThreeElement = document.querySelector("#city-three");
+   if (cityThreeElement) {
+  let cityThreeDateElement = cityThreeElement.querySelector(".date");
+  let cityThreeTimeElement = cityThreeElement.querySelector(".time");
+  let cityThreeTime = moment().tz("Japan");
+
+  cityThreeDateElement.innerHTML = cityThreeTime.format("dddd, MMMM Do YYYY");
+  cityThreeTimeElement.innerHTML = cityThreeTime.format(
+    "h:mm:ss [<small>]A[</small>]"
+  );}
 }
 
 
